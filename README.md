@@ -8,7 +8,7 @@
 - *algorithms*: sort, min, max, swap
 - *iterators*
 
-<center><img src="https://www.codingninjas.com/blog/wp-content/uploads/2020/08/BLOG-23.png" style="height:300px;"></center>
+<center><img src="https://www.codingninjas.com/blog/wp-content/uploads/2020/08/BLOG-23.png" style="height:300px; align:center;"></center>
 
 ```c++
 #include <vector>
