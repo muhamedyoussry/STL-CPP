@@ -22,28 +22,16 @@ sort(vec.begin(), vec.end()); // iterator and algorithm
 ```
 
 ### Types of containers:
-- **Simple Container**
-  - Pair
-- **Sequence Container**
-  - Array
-  - [Vector](1.%20Vector/README.md)
-  - Deque
-  - List
-  - Forward list
-- **Associative Container**
-  - Map
-  - Multimap
-  - Set
-  - Multiset
-- **Unordered Container**
-  - unordered Map
-  - unordered Multimap
-  - unordered Set
-  - unordered Multiset
-- **Adaptive Container**
-  - Stack
-  - Queue
-  - Priority Queue
+
+
+| Simple Container | Sequence Container              | Associative Container | Unordered Container | Adaptive Container |
+| ---------------- | ------------------------------- | --------------------- | ------------------- | ------------------ |
+| Pair             | Array                           | Map                   | Unordered Map       | Stack              |
+|                  | [Vector](1.%20Vector/README.md) | Multimap              | Unordered Multimap  | Queue              |
+|                  | Deque                           | Set                   | Unordered Set       | Priority Queue     |
+|                  | List                            | Multiset              | Unordered Multiset  |                    |
+|                  | Forward List                    |                       |                     |                    |
+
 
 ![](https://i.stack.imgur.com/nZR3T.png)
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20191111161536/Screenshot-from-2019-11-11-16-13-18.png)
