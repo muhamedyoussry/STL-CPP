@@ -25,7 +25,7 @@ sort(vec.begin(), vec.end()); // iterator and algorithm
 
 
 | Simple Container | Sequence Container              | Associative Container | Unordered Container | Adaptive Container |
-| ---------------- | ------------------------------- | --------------------- | ------------------- | ------------------ |
+| :----------------: | :-------------------------------: | :---------------------: | :-------------------:| :------------------: |
 | Pair             | Array                           | Map                   | Unordered Map       | Stack              |
 |                  | [Vector](1.%20Vector/README.md) | Multimap              | Unordered Multimap  | Queue              |
 |                  | Deque                           | Set                   | Unordered Set       | Priority Queue     |
