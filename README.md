@@ -4,11 +4,11 @@
 ## 00: Introduction to Standard Template Library
 
 - The Standard Template Library (STL) is a set of C++ template classes to provide common programming data structures and functions such as lists, stacks, arrays, etc. It is a library of
-- *container classes*: such as array, stack, queue, list
-- *algorithms*: sort, min, max, swap
-- *iterators*
+  - *container classes*: such as array, stack, queue, list
+  - *algorithms*: sort, min, max, swap
+  - *iterators*
 
-<center><img src="https://www.codingninjas.com/blog/wp-content/uploads/2020/08/BLOG-23.png" style="height:300px; align:center;"></center>
+<center><img src="https://www.codingninjas.com/blog/wp-content/uploads/2020/08/BLOG-23.png" style="height:300px;"></center>
 
 ```c++
 #include <vector>
@@ -26,7 +26,7 @@ sort(vec.begin(), vec.end()); // iterator and algorithm
   - Pair
 - **Sequence Container**
   - Array
-  - Vector
+  - [Vector](1.%20Vector/README.md)
   - Deque
   - List
   - Forward list
