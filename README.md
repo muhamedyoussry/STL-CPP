@@ -24,14 +24,15 @@ sort(vec.begin(), vec.end()); // iterator and algorithm
 ### Types of containers:
 
 
-| Simple Container | Sequence Container              | Associative Container | Unordered Container | Adaptive Container |
-| :----------------: | :-------------------------------: | :---------------------: | :-------------------:| :------------------: |
-| Pair             | Array                           | Map                   | Unordered Map       | Stack              |
-|                  | [Vector](1.%20Vector/README.md) | Multimap              | Unordered Multimap  | Queue              |
-|                  | Deque                           | Set                   | Unordered Set       | Priority Queue     |
-|                  | List                            | Multiset              | Unordered Multiset  |                    |
-|                  | Forward List                    |                       |                     |                    |
+| Simple Container |       Sequence Container        | Associative Container | Unordered Container | Adaptive Container |
+| :--------------: | :-----------------------------: | :-------------------: | :-----------------: | :----------------: |
+|       Pair       |              Array              |          Map          |    Unordered Map    |       Stack        |
+|                  | [Vector](1.%20Vector/README.md) |       Multimap        | Unordered Multimap  |       Queue        |
+|                  |              Deque              |          Set          |    Unordered Set    |   Priority Queue   |
+|                  |              List               |       Multiset        | Unordered Multiset  |                    |
+|                  |          Forward List           |                       |                     |                    |
 
+----
 
-![](https://i.stack.imgur.com/nZR3T.png)
-![](https://media.geeksforgeeks.org/wp-content/uploads/20191111161536/Screenshot-from-2019-11-11-16-13-18.png)
+1. I used [Geeks for Geeks](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) as a supporting material to study this topic.
+2. I studied from Adel Nasim Youtube Channel from [STL Library playlist](https://www.youtube.com/playlist?list=PLCInYL3l2AainAE4Xq2kdNGDfG0bys2xp)
