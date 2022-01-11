@@ -32,12 +32,18 @@ vector<int>:: iterator it;
 - `front()` returns the first element of a vector.
 - `back()` returns the last element of a vector.
 - `at(x)` returns the value in the position of `x`.
+- `insert()` insert an element before the element with the specified location.
+- `emplace()` emplace is like insert but faster.
+- `erase()` remove element from a specific location or range.
+- 
 
 ### Capacity
 - `size()` returns the number of elements in the vector.
 - `capacity()` returns the size of the storage space allocated for the vector.
 - `max_size()` returns number of the maximum elements that can be inserted to this vector.
 - `empty()` returns Returns whether the vector is empty.
+- `resize(n)` resize the container to `n` elements.
+- `shrink_to_fill()` make the capacity of the container to fit the container size and destroy all elements after the last element of my container.
 
 ### Vector Iterators
 - `begin()` return an iterator pointing to the first element in the vector.
