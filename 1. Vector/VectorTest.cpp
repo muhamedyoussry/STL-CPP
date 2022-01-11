@@ -5,12 +5,11 @@ using namespace std;
 
 int main()
 {
-    vector<int> v(5); // the initial value of the vectors are zero
-    v.push_back(3);
+    vector<int> v = {10, 20, 30, 40, 50};
 
-    for (auto i : v)
+    for (auto it = v.cbegin(); it != v.cend(); it++)
     {
-        cout << i << " ";
+        cout << *it << " ";
     }
 
     return 0;

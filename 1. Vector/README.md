@@ -11,6 +11,14 @@ Vectors are STL sequence containers same as dynamic arrays with the ability to r
 - Vector is one of the dynamic shapes of the array.
   - we can *save more space* using dynamic arrays.
   - wecan *resize* the dynamic arrays.
+- To access vector iterator we write the word iterator after the scoop resolution operator `::`
+  - iterator is like the pointer, to acess its value you should add asterisk `*` before the iterator.
+```c++
+vector<int>:: iterator it;  
+```
+- `auto` is a data type that will adapt automatically with its data initialization.
+
+
 
 ## Vector Methods
 
@@ -30,3 +38,9 @@ Vectors are STL sequence containers same as dynamic arrays with the ability to r
 - `capacity()` returns the size of the storage space allocated for the vector.
 - `max_size()` returns number of the maximum elements that can be inserted to this vector.
 - `empty()` returns Returns whether the vector is empty.
+
+### Vector Iterators
+- `begin()` return an iterator pointing to the first element in the vector.
+- `end()` return an iterator poniting to the theoritical element that follows the last element in vector. So, to reach the last element you can access ut using `vector,end() - 1`.
+- `rbegin()` returns a reverse iterator pointing to the last element in the vector (reverse beginning). It moves from last to first element.
+- `rend()` returns a reverse iterator pointing to the theoretical element.
