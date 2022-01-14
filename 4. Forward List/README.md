@@ -44,13 +44,13 @@ Forward Lists (Singly Linked Forward List) are STL *sequence* container are more
 - `remove_if()` remove an element based on specific condition or function.
 
 ### Properties of Forward List
-
-- Fast insert/remove at any place o(1)
+- Fast insert/remove at the front o(1)
 - no random access [] - at()
 - search o(n)
 
 ### Advantages
-- better in deletion and insertion from any where
+- better in deletion and insertion from the front
+- less space memory than list (doubly linked list)
 
 ### Drawbacks
 - do not support insertion and deletion from back.
