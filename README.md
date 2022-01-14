@@ -29,7 +29,7 @@ sort(vec.begin(), vec.end()); // iterator and algorithm
 |       Pair       |         Array         |          Map          |    Unordered Map    |       Stack        |
 |                  | [Vector](1.%20Vector) |       Multimap        | Unordered Multimap  |       Queue        |
 |                  |  [Deque](2.%20Deque)  |          Set          |    Unordered Set    |   Priority Queue   |
-|                  |         List          |       Multiset        | Unordered Multiset  |                    |
+|                  |   [List](3.%20List)   |       Multiset        | Unordered Multiset  |                    |
 |                  |     Forward List      |                       |                     |                    |
 
 ----
