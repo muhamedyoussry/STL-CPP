@@ -1,18 +1,18 @@
-#include <iostream>
-#include <vector> // incldue the template class
+#include <bits/stdc++.h>
 
 using namespace std;
 
 int main()
 {
-    vector<int> v = {10, 20, 30, 40, 50};
+    // vector<int> v = {30, 40, 50, 10, 45, 20};
 
-    v.erase(v.begin(), v.end() - 2);
+    string s = "53hackerRank";
+    auto it = find(s.begin(), s.end(), 'R');
 
-    for (auto it = v.begin(); it != v.end(); it++)
+    cout << it - s.begin() << endl;
+    for (auto i : s)
     {
-        cout << *it << "  ";
+        cout << i;
     }
-
     return 0;
 }
