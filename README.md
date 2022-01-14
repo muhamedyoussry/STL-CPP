@@ -24,13 +24,13 @@ sort(vec.begin(), vec.end()); // iterator and algorithm
 ### Types of containers:
 
 
-| Simple Container |  Sequence Container   | Associative Container | Unordered Container | Adaptive Container |
-| :--------------: | :-------------------: | :-------------------: | :-----------------: | :----------------: |
-|       Pair       |         Array         |          Map          |    Unordered Map    |       Stack        |
-|                  | [Vector](1.%20Vector) |       Multimap        | Unordered Multimap  |       Queue        |
-|                  |  [Deque](2.%20Deque)  |          Set          |    Unordered Set    |   Priority Queue   |
-|                  |   [List](3.%20List)   |       Multiset        | Unordered Multiset  |                    |
-|                  |     Forward List      |                       |                     |                    |
+| Simple Container |         Sequence Container          | Associative Container | Unordered Container | Adaptive Container |
+| :--------------: | :---------------------------------: | :-------------------: | :-----------------: | :----------------: |
+|       Pair       |                Array                |          Map          |    Unordered Map    |       Stack        |
+|                  |        [Vector](1.%20Vector)        |       Multimap        | Unordered Multimap  |       Queue        |
+|                  |         [Deque](2.%20Deque)         |          Set          |    Unordered Set    |   Priority Queue   |
+|                  |          [List](3.%20List)          |       Multiset        | Unordered Multiset  |                    |
+|                  | [Forward List](4.%20Forward%20List) |                       |                     |                    |
 
 ----
 

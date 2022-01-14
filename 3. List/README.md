@@ -31,12 +31,8 @@ Lists (Double Linked List) are STL *sequence* container that allow non-contiguou
 - 
 
 ### Capacity
-- `size()` returns the number of elements in the List.
-- `capacity()` returns the size of the storage space allocated for the List.
 - `max_size()` returns number of the maximum elements that can be inserted to this List.
 - `empty()` returns whether the List is empty.
-- `resize(n)` resize the container to `n` elements.
-- `shrink_to_fit()` make the capacity of the container to fit the container size and destroy all elements after the last element of my container.
 
 ### List Iterators
 - `begin()` return an iterator pointing to the first element in the List.
@@ -46,7 +42,7 @@ Lists (Double Linked List) are STL *sequence* container that allow non-contiguou
 
 ### Functions
 - `sort()` to sort my container in ascending order by defalut
-  - `sort(v.rbegin(), v.rend())` to sort in descending order
+  - `sort(greater<int>())` to sort in descending order
 - `reverse()` to reverse my container
 - `megre()` merge and sort two lists together into one.
 - `splice()` used to transfer elements from one list to another without sorting.
