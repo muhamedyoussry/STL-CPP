@@ -8,8 +8,6 @@ Lists (Double Linked List) are STL *sequence* container that allow non-contiguou
 2. *no suppport for random access*
 3. *Slow search*
 
-- try to pass an iterator to your functions to make it faster. for example `v.insert(v.begin()+1 , 5)`
-
 
 ## List Methods
 
