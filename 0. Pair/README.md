@@ -1,6 +1,6 @@
 # Pair
 
-Pairs are STL *Simple* container that allow non-contiguous memory allocation. As compared to vector, Pair has slow traversal, but once a position has been found, insertion and deletion are quick. Normally, when we say a Pair, we talk about doubly linked Pair. For implementing a singly linked Pair, we use forward Pair
+Pairs are STL *Simple* container used to combine together two values that may be different in type.
  
 ## Pair Characterstics
 
